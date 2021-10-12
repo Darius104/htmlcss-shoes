@@ -1,0 +1,31 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+.finestra{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+/* finestra rossa */
+header .finestra{
+    background-color: red;
+}
+
+/* finestra verde */
+main :nth-child(1){
+    background-color: green;
+}
+
+/* finestra gialla */
+main :nth-child(2){
+    background-color: yellow;
+}
