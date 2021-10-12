@@ -15,17 +15,66 @@ img{
     height: 100vh;
 }
 
+/* contenitore generale */
+.contenitore{
+    position: relative;
+}
+/* contenitore della lista */
+.contenitore2{
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    position: fixed;
+}
+
+li{
+    display: inline-block;
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 100%;
+    margin: 15px;  
+}
+li a{
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
 /* finestra rossa */
-header .finestra{
+main #rosso {
     background-color: red;
 }
 
 /* finestra verde */
-main :nth-child(1){
+main #verde{
     background-color: green;
 }
 
 /* finestra gialla */
-main :nth-child(2){
+main #giallo{
     background-color: yellow;
+}
+
+/* posizionamento immagine */
+.tran{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+.tran h2{
+    color: yellow;
+}
+
+#giallo h2{
+    color: green;
 }
