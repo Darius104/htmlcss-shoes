@@ -9,6 +9,10 @@ img{
     width: 100%;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .finestra{
     position: relative;
     width: 100%;
